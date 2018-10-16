@@ -1,0 +1,29 @@
+{
+  "appName": "m_deeplearning_api",
+  "port": 8082,
+  "log": {
+    "dir": "/data/log/",
+    "consoleLeve": "debug"
+  },
+  "reportDeeplearningUrl": "/v1/scenereport",
+  "db": {
+    "namespace": "m_ingest",
+    "hostname": "hostname",
+    "username": "username",
+    "database": "m_ingest",
+    "password": "pwd",
+    "port": "3306",
+    "procedure": true,
+    "encrypt": true,
+    "connLimit": 10,
+    "pool": {
+      "max": 10,
+      "min": 0,
+      "idleTimeoutMillis": 30000
+    }
+  },
+  "mongo": {
+    "url": "mongodb://127.0.0.1:27017/",
+    "database": "deeplearning"
+  }
+}

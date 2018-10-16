@@ -5,5 +5,8 @@
 
 *.idea
 
-conf/
+conf/default.json
+conf/dev.json
+conf/prd.json
+
 node_modules/
