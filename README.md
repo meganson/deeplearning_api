@@ -1,6 +1,16 @@
-# m_deeplearning_api
+# api (deeplearning system - scene recognition)
+object and face
+Short explain : This is report recognition result to save mongoDB.
 
 
-- start program example using pm2
+## How start
+It's simple
 
-   pm2 start index.js -c samples
+- Install pm2
+```
+npm i install pm2
+```
+- Start program example using pm2
+```
+pm2 start index.js -c samples
+```
