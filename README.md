@@ -2,7 +2,7 @@
 object and face.
 
 ## Short explain
-##### This is report recognition result to save mongoDB.
+##### This is report recognition result save to mongoDB.
 
 
 ## How start
